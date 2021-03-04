@@ -5,10 +5,6 @@
  */
 package practica1;
 
-/**
- *
- * @author maria
- */
 public class Line {
 
     public Line() {
