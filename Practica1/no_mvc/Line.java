@@ -34,21 +34,11 @@ public class Line {
     public void left() {
         if(index > 0){ 
             index--;
-            
-        }else{
-            //Implement Bell
-            
-        }
     }
     
     public void right() {
         if(index < line.length()) {
             index++;
-            
-        }else{
-            //Implement Bell
-            
-        }
     }
 
     public void delete() {
