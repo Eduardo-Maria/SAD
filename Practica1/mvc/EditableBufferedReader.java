@@ -4,7 +4,7 @@ import java.io.*;
 
 
 public class EditableBufferedReader extends BufferedReader{
-    private static final int BACKSPACE = 8;
+    private static final int BACKSPACE = 127;
     private static final int EXIT = 13;
     private static final int ESC = 27;
     private static final int INSERT = 600;
