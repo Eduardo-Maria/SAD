@@ -63,8 +63,8 @@ public class EditableBufferedReader extends BufferedReader{
         Line intro = new Line();
         Console viewer  = new Console();
         intro.addObserver(viewer);
-	  int index;
-	  viewer.setRaw();
+	int index;
+	viewer.setRaw();
 
         while (car != EXIT) {
 		 car = this.read();
@@ -90,7 +90,7 @@ public class EditableBufferedReader extends BufferedReader{
                     break;
                 case BACKSPACE:
                     intro.backspace();
-  		         break;			   
+  		    break;			   
                 default:
                     intro.addChar((char) car);
                     break;
