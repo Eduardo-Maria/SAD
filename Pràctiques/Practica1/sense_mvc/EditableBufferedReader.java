@@ -108,7 +108,7 @@ public class EditableBufferedReader extends BufferedReader{
                     break;
                 case BACKSPACE:
                     intro.backspace();
-  		         break;			   
+  		    break;			   
                 default:
                     intro.addChar((char) car);
                     break;
