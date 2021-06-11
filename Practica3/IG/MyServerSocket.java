@@ -9,7 +9,6 @@ import java.nio.charset.*;
 
 
 public class MyServerSocket extends ServerSocket {
-    
     private Map<String, String> users = new HashMap<>();
     private Selector select;
 	private ByteBuffer buffer = ByteBuffer.allocate(2048);
