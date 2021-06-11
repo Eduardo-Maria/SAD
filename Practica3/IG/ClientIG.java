@@ -68,7 +68,8 @@ public class ClientIG implements ActionListener {
             e.printStackTrace();
         }
 
-        if (args.length < 2) return;
+        if (args.length < 2) 
+            return;
         Client client = new Client(messages, listModel);
         client.main(args);
     }
