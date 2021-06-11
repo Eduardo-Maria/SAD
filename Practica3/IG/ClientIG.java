@@ -1,11 +1,9 @@
 import java.awt.*;
 import java.awt.event.*;
 import java.io.IOException;
-
 import javax.swing.*;
 
 public class ClientIG implements ActionListener {
-
     private static JTextField text;
     private static JTextArea messages;
     private static DefaultListModel<String> listModel;
