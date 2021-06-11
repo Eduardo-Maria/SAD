@@ -8,7 +8,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import javax.swing.*;
 
 public class Client {
-
     private static ByteBuffer buffer = ByteBuffer.allocate(1024);
     public static ConcurrentHashMap<String, String> writen = new ConcurrentHashMap<>();
     private static JTextArea messages;
