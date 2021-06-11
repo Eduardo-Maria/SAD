@@ -4,13 +4,11 @@ import java.io.*;
 import javax.swing.*;
 
 public class ServerIG implements ActionListener {
-
     private static JTextField text;
     private static JTextArea messages;
     private static DefaultListModel<String> listModel;
 
     public ServerIG() {
-
         JFrame window = new JFrame("Server");
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -70,7 +68,8 @@ public class ServerIG implements ActionListener {
             ex.printStackTrace();
         }
 
-        if (args.length < 1) return;
+        if (args.length < 1) 
+            return;
 
         Server server = new Server(messages, listModel);
         try{
