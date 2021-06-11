@@ -1,10 +1,8 @@
 import java.io.*;
 import java.util.concurrent.ConcurrentHashMap;
-
 import javax.swing.*;
 
 public class Server {
-
     private static JTextArea messages;
     private static DefaultListModel<String> listModel;
 	public static ConcurrentHashMap<String, String> writen = new ConcurrentHashMap<>();
