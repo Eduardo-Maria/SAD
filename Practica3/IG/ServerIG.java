@@ -1,7 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
-
 import javax.swing.*;
 
 public class ServerIG implements ActionListener {
@@ -66,7 +65,7 @@ public class ServerIG implements ActionListener {
         });
 
         try {
-            Thread.sleep(5000);
+            Thread.sleep(10000);
         } catch (Exception ex) {
             ex.printStackTrace();
         }
